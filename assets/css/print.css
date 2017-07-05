@@ -1,0 +1,29 @@
+
+
+
+body{
+	font-family: Arial;
+	color:#444;
+	font-size: 14px;
+}
+
+.noprint{
+	display: none;
+}
+
+
+#invoice h2{font-size: 24px; color:#58748b;}
+#invoice .top-title{font-size: 18px; color:#58748b;}
+#invoice .table{width: 100%; margin-top: 20px;}
+#invoice .table td{padding:5px 0;}
+#invoice .fa-times{display: none;}
+#invoice td input{
+	border:none;
+	text-align: right;
+	margin-right: 4px;
+	color:#444;
+}
+#invoice tr td:last-child, #invoice .t-footer{text-align: right;}
+#invoice .t-footer .total{margin-top: 20px;color:#58748b;}
+
+

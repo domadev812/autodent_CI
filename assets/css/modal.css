@@ -1,0 +1,27 @@
+.modal-content {
+   
+}
+
+.modal-content .title{
+   height: 50px;
+   margin: 5px;
+   border-bottom: solid 1px #ccc;
+}
+
+.modal-content .title b{
+  color: #bbb;
+  font-size: 30px;
+}
+.modal-content .left-user-list{
+   border-right: solid 1px #ccc;
+   background-color: #EFF3F4; 
+   margin-left: 20px;
+   margin-top: -5px;
+}
+
+.modal-content .left-user-list .col-md-12{
+   margin: 5px;
+   padding: 10px;
+   background-color: #656262;
+   cursor: pointer;
+}

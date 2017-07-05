@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+		
+	<title><?=get_title()?></title>
+
+	<?if(strlen($this->meta_desc)):?><meta name="description" content="<?=$this->meta_desc?>" /><?endif;?>
+	<?if(strlen($this->meta_key)):?><meta name="keywords" content="<?=$this->meta_key?>"><?endif;?>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/assets/fonts/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="/assets/css/animate.min.css">
+	
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css">
+	
+	<!--<link rel="stylesheet" href="/assets/css/app.min.css">
+	<link rel="stylesheet" href="/assets/css/lyt2-theme-1.css">-->
+	<!--<link rel="stylesheet" href="/assets/css/theme444.css">-->
+	<!--<link rel="stylesheet" href="/assets/css/theme.css">-->
+	
+	<link rel="stylesheet" href="/assets/css/main.css?v=<?=get_css_version('main')?>">
+
+	<script src="/assets/js/jquery-2.2.1.min.js"></script>
+	<script src="/assets/js/bootstrap.min.js"></script>
+	<script src="/assets/js/functions.js"></script>
+	<script src="/assets/js/main.js"></script>
+
+</head>
+<body>
+<main>
+

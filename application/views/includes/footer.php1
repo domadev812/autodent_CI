@@ -1,0 +1,12 @@
+
+<!--<footer id="footer">
+	<div class="container-fluid">
+
+		<div class="copyRight hidden-xs"><p>&copy; 2016 <?if(date('Y')!='2016')echo ' - '.date('Y')?> <b>AutoDent</b>. All rights reserved</p></div>
+		
+	</div>
+</footer>-->
+
+
+</body>
+</html>
